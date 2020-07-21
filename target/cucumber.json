@@ -1,0 +1,262 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Valid login",
+        "description": "",
+        "id": "login-features;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16569744500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to Login page",
+            "match": {
+              "location": "LoginStepDefinition.navigate_to_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1029848700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_in_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 520235800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logins using valid credentials",
+            "match": {
+              "location": "LoginStepDefinition.user_logins_using_valid_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63185700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "home page should be displayed",
+            "match": {
+              "location": "LoginStepDefinition.home_page_should_be_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Features",
+    "description": "",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "01_login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Home page",
+        "description": "",
+        "id": "freecrm-homepage;validate-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1486079200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to Home page",
+            "match": {
+              "location": "HomePageStepDefinition.navigate_to_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175150400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Home page",
+            "match": {
+              "location": "HomePageStepDefinition.user_is_in_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200734700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user validates Home page Elements",
+            "match": {
+              "location": "HomePageStepDefinition.user_validates_Home_page_Elements()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM HomePage",
+    "description": "",
+    "id": "freecrm-homepage",
+    "keyword": "Feature",
+    "uri": "02_homePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Calendar page",
+        "description": "",
+        "id": "freecrm-calendar-features;validate-calendar-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62395800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to Home page",
+            "match": {
+              "location": "HomePageStepDefinition.navigate_to_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90966000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Home page",
+            "match": {
+              "location": "HomePageStepDefinition.user_is_in_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188804300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to Calendar page",
+            "match": {
+              "location": "CalendarStepDefinition.navigate_to_Calendar_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109870300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate Calendar page",
+            "match": {
+              "location": "CalendarStepDefinition.validate_Calendar_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Calendar Features",
+    "description": "",
+    "id": "freecrm-calendar-features",
+    "keyword": "Feature",
+    "uri": "03_calendar.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Contacts page",
+        "description": "",
+        "id": "freecrm-contacts-features;validate-contacts-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 193160500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to Home page",
+            "match": {
+              "location": "HomePageStepDefinition.navigate_to_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43313700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in Home page",
+            "match": {
+              "location": "HomePageStepDefinition.user_is_in_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153526100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to Contacts page",
+            "match": {
+              "location": "ContactsStepDefinition.navigate_to_Contacts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 253245200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate Contacts page",
+            "match": {
+              "location": "ContactsStepDefinition.validate_Contacts_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Contacts Features",
+    "description": "",
+    "id": "freecrm-contacts-features",
+    "keyword": "Feature",
+    "uri": "04_contacts.feature"
+  }
+]

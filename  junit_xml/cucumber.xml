@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="21.140261">
+<testcase classname="Login Features" name="Valid login" time="18.183015">
+<system-out><![CDATA[Given navigate to Login page................................................passed
+When user is in login page..................................................passed
+Then user logins using valid credentials....................................passed
+And home page should be displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FreeCRM HomePage" name="Validate Home page" time="1.861964">
+<system-out><![CDATA[Given navigate to Home page.................................................passed
+When user is in Home page...................................................passed
+Then user validates Home page Elements......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FreeCRM Calendar Features" name="Validate Calendar page" time="0.452036">
+<system-out><![CDATA[Given navigate to Home page.................................................passed
+When user is in Home page...................................................passed
+Then navigate to Calendar page..............................................passed
+Then validate Calendar page.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="FreeCRM Contacts Features" name="Validate Contacts page" time="0.643246">
+<system-out><![CDATA[Given navigate to Home page.................................................passed
+When user is in Home page...................................................passed
+Then navigate to Contacts page..............................................passed
+Then validate Contacts page.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
